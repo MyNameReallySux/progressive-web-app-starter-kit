@@ -1,0 +1,88 @@
+# Options
+
+color :
+  white : &color-white "#ffffff"
+  black : &color-black "#000000"
+
+  neutral :
+    10 : &color-neutral-10 "#f2f2f2"
+    20 : &color-neutral-20 "#d9d9d9"
+    30 : &color-neutral-30 "#bfbfbf"
+    40 : &color-neutral-40 "#a6a6a6"
+    50 : &color-neutral-50 "#8c8c8c"
+    60 : &color-neutral-60 "#737373"
+    70 : &color-neutral-70 "#595959"
+    80 : &color-neutral-80 "#404040"
+    90 : &color-neutral-90 "#262626"
+    100 : &color-neutral-100 "#0d0d0d"
+
+  red : &color-palette-red  
+    base: &color-red "#F44336"
+    50 : &color-red-50 "#FFEBEE"
+    100 : &color-red-100 "#FFCDD2"
+    200 : &color-red-200 "#EF9A9A"
+    300 : &color-red-300 "#E57373"
+    400 : &color-red-400 "#EF5350"
+    500 : &color-red-500 "#F44336"
+    600 : &color-red-600 "#E53935"
+    700 : &color-red-700 "#D32F2F"
+    800 : &color-red-800 "#C62828"
+    900 : &color-red-900 "#B71C1C"
+    a100 : &color-red-a100 "#FF8A80"
+    a200 : &color-red-a200 "#FF5252"
+    a400 : &color-red-a400 "#FF1744"
+    a700 : &color-red-a700 "#D50000"
+
+  pink : &color-palette-pink  
+    base: &color-pink "#E91E63"
+    50 : &color-pink-50 "#FCE4EC"
+    100 : &color-pink-100 "#F8BBD0"
+    200 : &color-pink-200 "#F48FB1"
+    300 : &color-pink-300 "#F06292"
+    400 : &color-pink-400 "#EC407A"
+    500 : &color-pink-500 "#E91E63"
+    600 : &color-pink-600 "#D81B60"
+    700 : &color-pink-700 "#C2185B"
+    800 : &color-pink-800 "#AD1457"
+    900 : &color-pink-900 "#880E4F"
+    a100 : &color-pink-a100 "#FF80AB"
+    a200 : &color-pink-a200 "#FF4081"
+    a400 : &color-pink-a400 "#F50057"
+    a700 : &color-pink-a700 "#C51162"
+
+  purple : &color-palette-purple
+    base: &color-purple "#9C27B0"
+    50 : &color-purple-50 "#F3E5F5"
+    100 : &color-purple-100 "#E1BEE7"
+    200 : &color-purple-200 "#CE93D8"
+    300 : &color-purple-300 "#BA68C8"
+    400 : &color-purple-400 "#AB47BC"
+    500 : &color-purple-500 "#9C27B0"
+    600 : &color-purple-600 "#8E24AA"
+    700 : &color-purple-700 "#7B1FA2"
+    800 : &color-purple-800 "#6A1B9A"
+    900 : &color-purple-900 "#4A148C"
+    a100 : &color-purple-a100 "#EA80FC"
+    a200 : &color-purple-a200 "#E040FB"
+    a400 : &color-purple-a400 "#D500F9"
+    a700 : &color-purple-a700 "#AA00FF"
+
+# Theme
+
+theme: 
+  primary: *color-palette-purple
+
+# Decisions
+
+text-color:
+  default : *color-neutral-90
+  on-light : *color-neutral-90
+  on-dark : *color-neutral-10
+
+background-color :
+  default : *color-neutral-10
+  light : *color-neutral-10
+  dark : *color-neutral-90
+
+
+  

@@ -1,0 +1,64 @@
+# Options
+
+names: 
+  xs: &query-xs "extra-small"
+  ms:  &query-ms "medium-small"
+  s:  &query-s "small"
+  m: &query-m "medium"
+  l: &query-l "large"
+  xl:  &query-xl "extra-large"
+
+# Decisions
+
+queries:
+  px:
+    xs:
+      name: *query-xs
+      min: none
+      max: 479      
+    ms:
+      name: *query-ms
+      min: 480
+      max: 539
+    s:
+      name: *query-s
+      min: 540
+      max: 767
+    m:
+      name: *query-m
+      min: 768
+      max: 991
+    l:
+      name: *query-l
+      min: 992
+      max: 1139
+    xl:
+      name: *query-xl
+      min: 1140
+      max: none
+
+  em:
+    xs:
+      name: *query-xs
+      min: none
+      max: 29.9375  
+    ms:
+      name: *query-ms
+      min: 30
+      max: 33.6875
+    s:
+      name: *query-s
+      min: 33.75
+      max: 47.9375
+    m:
+      name: *query-m
+      min: 48
+      max: 61.9375
+    l:
+      name: *query-l
+      min: 62
+      max: 71.1875
+    xl:
+      name: *query-xl
+      min: 71.25
+      max: none
